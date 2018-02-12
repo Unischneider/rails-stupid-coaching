@@ -1,0 +1,21 @@
+
+
+<div class="answer">
+  <h1>Answer</h1>
+  <div class="rect">
+    <p>Your question was: <br>
+      <b>
+        <%= @question %>
+      </b>
+    </p>
+  </div>
+  <div class="rect">
+    <h3>
+      <%= @answer %>
+    </h3>
+    <h4>- Your Coach</h4>
+  </div>
+  <form action="<%= root_path %>" method="get">
+    <input type="submit" class="btn" value="Go Back">
+  </form>
+</div>
